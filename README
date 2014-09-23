@@ -6,8 +6,8 @@ modifying their `time` fields to reflect the delta since the last event.
 use like:
 
 	$ make
-	$ ./build/evrec <input device> > <dump file>
-	$ ./build/evplay <input device> < <dump file>
+	$ ./build/evrec [input device] > [dump file]
+	$ ./build/evplay [input device] < [dump file]
 
 this code is released into the public domain.
 
