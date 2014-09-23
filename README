@@ -1,0 +1,14 @@
+quick and dirty hack to record and playback input events from linux
+event devices. `evrec` dumps raw input_event structs to stdout,
+modifying their `time` fields to reflect the delta since the last event.
+`evplay` does the inverse.
+
+use like:
+
+	$ make
+	$ ./build/evrec <input device> > <dump file>
+	$ ./build/evplay <input device> < <dump file>
+
+this code is released into the public domain.
+
+wrl@illest.net, holler
